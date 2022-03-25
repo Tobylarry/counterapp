@@ -1,0 +1,52 @@
+
+.container{
+    background-color: blue;
+    color:white;
+    width:30%;
+    margin: 0 auto;
+    text-align:center;
+    padding:50px;
+    border-radius:10px;
+    margin-top:140px;
+}
+.sub{
+    background-color: red;
+    color: white;
+}
+.add{
+    background-color: green;
+    color:white;
+}
+
+input{
+    padding:10px 25px;
+    font-size: 13px;
+    font-weight: bolder;
+    border:none;
+}
+
+@media only screen and (max-width:600px) {
+
+    .container{
+        width:60%;
+        margin:0 auto;
+        margin-top:100px;
+    }
+    input{
+        padding:8px 15px;
+        font-size: 11px;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:1200px){
+
+    .container{
+        width:50%;
+        margin:0 auto;
+        margin-top:100px;
+    }
+    input{
+        padding:8px 15px;
+        font-size: 11px;
+    }
+}
